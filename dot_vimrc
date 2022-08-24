@@ -1,0 +1,31 @@
+set nocompatible    " Drop vim compatibility.
+
+syntax on           " Enable syntax highlighting.
+set ruler           " Don’t show the intro message when starting Vim.
+set number          " Display line numbers
+
+set tabstop=4       " Number of visual spaces for tabs.
+set softtabstop=4   " Number of spaces on tabs.
+set shiftwidth=4
+set expandtab       " Tabs are spaces.
+
+set ignorecase      " Ignore case when searching.
+set smartcase       " Be smart about the case.
+set hlsearch        " Highlight matches.
+set incsearch
+
+set noerrorbells    " No bells
+set novisualbell    " No visual bell
+
+set encoding=utf-8 nobomb
+filetype indent on
+filetype indent plugin on
+set backspace=indent,eol,start
+
+set lazyredraw      " Don't redraw when not needed.
+set showmatch       " Matching ()
+
+set noerrorbells    " No error bells
+set title           " Show the filename in the window titlebar
+
+set ttyfast         " Optimize for fast terminal connections
